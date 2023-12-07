@@ -1,0 +1,90 @@
+/* Reset some default styles for the entire page */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles for the page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Container styles for the summary view */
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #000;
+}
+
+/* Styles for the ag-Grid */
+.ag-theme-alpine {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 80%;
+}
+
+.ag-root {
+  border: 2px solid #000; /* Set border color to solid black */
+}
+
+/* Button styles */
+.action-button {
+  background-color: #3498db; /* Blue color for Open and Update buttons */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.blue-button {
+  background-color: #9fd1f3; /* Blue color for Open and Update buttons */
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.blue-buttono {
+  background-color: #9fd1f3; /* Blue color for Open and Update buttons */
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.red-button {
+  background-color: #ee8377; /* Red color for Delete button */
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Icon meaning styles */
+.icon-meaning {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+
+  .icon {
+    margin-right: 10px;
+  }
+}
+
+/* Additional styles for the meaning */
+.meaning {
+  margin-right: 20px;
+}

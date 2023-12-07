@@ -1,0 +1,82 @@
+.new-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-box {
+  width: 400px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+label {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  margin-right: 30px;
+}
+
+.form-group select {
+  height: 30px;
+  width: 175px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 12px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.save-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.save-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.disabled-indicator {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 12px;
+  color: red;
+}
+
+/* Styles for error messages */
+.error-message {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: red;
+  font-size: 10px; /* Adjusted font size for error messages */
+}

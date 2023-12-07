@@ -1,0 +1,48 @@
+/* src/components/Navigationbar.css */
+
+.navbar {
+  overflow: hidden;
+  background: skyblue;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#my-name {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-right: 270px; /* Align to the left */
+}
+
+.nav-links-container {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: skyblue;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 10px;
+}
+
+.nav-button.active {
+  background-color: peachpuff; /* Change to peach color for active button */
+  color: black;
+}
+
+.nav-button:hover {
+  background-color: #ff6b6b;
+  color: purple;
+}
